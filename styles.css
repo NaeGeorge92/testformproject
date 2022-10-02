@@ -1,0 +1,123 @@
+body {
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);    margin: 0;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-family: Tahoma;
+}
+
+h1, p{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+p{
+    font-style: italic;
+    font-size: 25px;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    width: 750;
+    min-height: 450px;
+    max-width: 850px; 
+    background-color: rgba(0, 0, 0, 0.8 );
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 20PX;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem;
+}
+
+input, textarea, select{
+    min-width: 100%;
+    min-height: 30px;
+    border: 2px solid #1818b1;
+    color: #000000; 
+    display: inline-block;
+    border-radius:10px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+
+.inline{
+    width:unset;
+    min-height: unset;
+    min-width: unset;
+    display: block;
+    float: right;
+    margin-right: 500px;
+    transform: scale(2);
+}
+
+.text1{
+    text-align: left;
+}
+
+.label1 {
+    margin-bottom: 20px;
+}
+
+.fieldset1{
+    margin-top: -75px;
+}
+
+.select1{
+    margin-bottom: 10px;
+}
+
+.text2{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.inline2{
+    width:unset;
+    min-height: unset;
+    min-width: unset;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    transform: scale(2);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.button1{
+    background-color: #4CAF50; /* Green */
+    border: 5px black;
+    color: white;
+    padding: 15px 110px;
+    text-align: center;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.lastp{
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 10px;
+}
